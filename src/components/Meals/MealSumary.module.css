@@ -1,0 +1,19 @@
+.summary {
+    text-align: center;
+    max-width: 50rem;
+    width: 90%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -72%);
+    background-color: #383838;
+    color: white;
+    border-radius: 14px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+}
+  
+.summary h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
