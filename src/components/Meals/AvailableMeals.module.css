@@ -11,11 +11,21 @@
     padding: 0;
 }
 
+.meals-loading,
+.meals-error {
+  text-align: center;
+  margin-top: 15rem;
+  font-size: 20px;
+}
+
 .meals-loading {
   color: #444;
-  text-align: center;
 }
-  
+
+.meals-error {
+  color: red;
+}
+
 @keyframes meals-appear {
     0% {
       opacity: 0;
